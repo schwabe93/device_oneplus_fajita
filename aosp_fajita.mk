@@ -28,6 +28,10 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
 
+# Maintainer Prop
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Akash Srivastava"
+
 PRODUCT_NAME := aosp_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
