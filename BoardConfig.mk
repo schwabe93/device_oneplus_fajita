@@ -22,9 +22,6 @@ DEVICE_PATH := device/oneplus/fajita
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Vendor Security Patch Level
-VENDOR_SECURITY_PATCH := 2019-04-01
-
 # Kernel
 TARGET_KERNEL_CONFIG := fajita_defconfig
 
