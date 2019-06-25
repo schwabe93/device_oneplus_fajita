@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_fajita.mk
+    $(LOCAL_DIR)/aosp_fajita.mk
