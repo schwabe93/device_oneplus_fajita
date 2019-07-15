@@ -25,13 +25,15 @@ TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_hwcomposer=true
+
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Oneplus 6T" \
     DEVICE_MAINTAINERS="Alexander Gemsa (schwabe93)"
-
 
 PRODUCT_NAME := aosp_fajita
 PRODUCT_DEVICE := fajita
